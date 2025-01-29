@@ -1,5 +1,6 @@
 #include <iostream>
-#include "processes\processes.h"
+#include "processes.h"
+#include "show_result.h"
 using std::cout, std::endl;
 
 int main()
@@ -7,7 +8,11 @@ int main()
     cout << "planing start" << endl;
     Process pro;
     pro.planProcess();
-    cout << "planning end" << endl;
+    cout << "main of planning end" << endl;
 
+    cout << "show result" << endl;
+    Show_Result show;
+    show.drawResult();
+    
     return 0;
 }

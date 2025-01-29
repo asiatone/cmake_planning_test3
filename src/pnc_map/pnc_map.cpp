@@ -4,5 +4,5 @@ using std::cout, std::endl;
 
 void PNC_Map::mapInfo()
 {
-    cout << "This is pnc_map2"<<endl;
+    cout << "pnc_map of This is pnc_map2"<<endl;
 }

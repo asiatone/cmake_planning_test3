@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/Cmake/cmake_planning_test3/bin/planning_main.exe"
+			"path" : "D:/Cmake/cmake_planning_test4/bin/planning_main.exe"
 		},
 		{
-			"path" : "D:/Cmake/cmake_planning_test3/bin/planning_main.pdb"
+			"path" : "D:/Cmake/cmake_planning_test4/bin/planning_main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,8 @@
 		"files" : 
 		[
 			"src/CMakeLists.txt",
-			"src/processes/CMakeLists.txt"
+			"src/processes/CMakeLists.txt",
+			"src/show_result/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,13 +31,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 13,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -46,12 +53,27 @@
 				"command" : 1,
 				"file" : 1,
 				"line" : 13,
-				"parent" : 3
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 6
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -68,12 +90,16 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
-					"path" : "D:/Cmake/cmake_planning_test3/src/processes"
+					"backtrace" : 8,
+					"path" : "D:/Cmake/cmake_planning_test4/src/processes"
 				},
 				{
-					"backtrace" : 2,
-					"path" : "D:/Cmake/cmake_planning_test3/src/pnc_map"
+					"backtrace" : 9,
+					"path" : "D:/Cmake/cmake_planning_test4/src/show_result"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Cmake/cmake_planning_test4/src/pnc_map"
 				}
 			],
 			"language" : "CXX",
@@ -94,12 +120,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "pnc_map::@252d5772c77a80ef76b0"
 		},
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "processes::@c2bd6fc0ea318137794b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "show_result::@b60c13569b0a8d4a3aa6"
 		}
 	],
 	"id" : "planning_main::@145eef247bfb46b6828c",
@@ -117,12 +147,22 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "show_result\\libshow_result.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "processes\\libprocesses.dll.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 5,
 				"fragment" : "pnc_map\\libpnc_map.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-leasyx",
 				"role" : "libraries"
 			},
 			{

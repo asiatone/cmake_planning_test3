@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/planning_main.dir/planning_main.cpp.obj"
   "CMakeFiles/planning_main.dir/planning_main.cpp.obj.d"
-  "D:/Cmake/cmake_planning_test3/bin/planning_main.exe"
-  "D:/Cmake/cmake_planning_test3/bin/planning_main.exe.manifest"
-  "D:/Cmake/cmake_planning_test3/bin/planning_main.pdb"
+  "D:/Cmake/cmake_planning_test4/bin/planning_main.exe"
+  "D:/Cmake/cmake_planning_test4/bin/planning_main.exe.manifest"
+  "D:/Cmake/cmake_planning_test4/bin/planning_main.pdb"
   "libplanning_main.dll.a"
 )
 

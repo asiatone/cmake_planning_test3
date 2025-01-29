@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/Cmake/cmake_planning_test3/bin/libprocesses.dll"
+			"path" : "D:/Cmake/cmake_planning_test4/bin/libshow_result.dll"
 		},
 		{
-			"path" : "src/processes/libprocesses.dll.a"
+			"path" : "src/show_result/libshow_result.dll.a"
 		},
 		{
-			"path" : "D:/Cmake/cmake_planning_test3/bin/libprocesses.pdb"
+			"path" : "D:/Cmake/cmake_planning_test4/bin/libshow_result.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -22,6 +22,7 @@
 		],
 		"files" : 
 		[
+			"src/show_result/CMakeLists.txt",
 			"src/processes/CMakeLists.txt"
 		],
 		"nodes" : 
@@ -40,6 +41,21 @@
 				"file" : 0,
 				"line" : 13,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 4
 			},
 			{
 				"command" : 2,
@@ -61,14 +77,18 @@
 			"defines" : 
 			[
 				{
-					"define" : "processes_EXPORTS"
+					"define" : "show_result_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "D:/Cmake/cmake_planning_test3/src/pnc_map"
+					"backtrace" : 6,
+					"path" : "D:/Cmake/cmake_planning_test4/src/processes"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Cmake/cmake_planning_test4/src/pnc_map"
 				}
 			],
 			"language" : "CXX",
@@ -91,9 +111,13 @@
 		{
 			"backtrace" : 2,
 			"id" : "pnc_map::@252d5772c77a80ef76b0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "processes::@c2bd6fc0ea318137794b"
 		}
 	],
-	"id" : "processes::@c2bd6fc0ea318137794b",
+	"id" : "show_result::@b60c13569b0a8d4a3aa6",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -104,6 +128,16 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "..\\processes\\libprocesses.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-leasyx",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
 				"fragment" : "..\\pnc_map\\libpnc_map.dll.a",
 				"role" : "libraries"
 			},
@@ -114,12 +148,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "processes",
-	"nameOnDisk" : "libprocesses.dll",
+	"name" : "show_result",
+	"nameOnDisk" : "libshow_result.dll",
 	"paths" : 
 	{
-		"build" : "src/processes",
-		"source" : "src/processes"
+		"build" : "src/show_result",
+		"source" : "src/show_result"
 	},
 	"sourceGroups" : 
 	[
@@ -136,7 +170,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/processes/processes.cpp",
+			"path" : "src/show_result/show_result.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -4,7 +4,7 @@ using std::cout, std::endl;
 
 void Process::planProcess()
 {
-    cout << "This is planning processes3"<< endl;
+    cout << "process of This is planning processes3"<< endl;
     my_map.mapInfo();
-    cout<<"planning successes3!"<< endl;
+    cout<<"Process of planning successes3!"<< endl;
 }
